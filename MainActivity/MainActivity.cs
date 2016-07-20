@@ -105,6 +105,7 @@ namespace Fusee.Engine.Examples.Simple.Android
             //only allow Landscape and ReverseLandscape
             this.RequestedOrientation = ScreenOrientation.SensorLandscape;
 
+            Window.AddFlags(WindowManagerFlags.Fullscreen);
             RequestWindowFeature(WindowFeatures.NoTitle);
 
             //Initialize a SensorManager

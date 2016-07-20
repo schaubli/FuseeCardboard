@@ -27,7 +27,7 @@ namespace Fusee.Engine.Examples.Simple.Core
         private const float RotationSpeed = 7;
         private const float Damping = 0.8f;
 
-        private int _eyeDistance = 10;
+        private int _eyeDistance = 5;
 
         private SceneContainer _WuggyScene;
         private SceneRenderer _sceneRenderer;
