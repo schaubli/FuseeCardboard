@@ -14,4 +14,6 @@ We used the SimpleExample as a base project
 * Distance between eyes can be changed with the *_eyeDistance* variable
 * Use WuggyLand scene instead of Rocket
 
-**Bug:** Width and Height are 0 in Init on Android device
+**Bug:** Width and Height are 0 in Init on Android device</br>
+Thats why we have to set it manually to 2560x1440
+As a result the rendered images may look too big on lower-res devices
